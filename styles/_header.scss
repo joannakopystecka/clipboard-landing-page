@@ -1,12 +1,24 @@
 .header {
   display: grid;
+  grid-template-columns: 50vw;
   justify-items: center;
   justify-content: center;
+  text-align: center;
   gap: 2rem;
   padding-top: 15vh;
+
+  &__paragraph {
+    font-size: 2rem;
+    text-align: center;
+  }
 
   &__buttons {
     display: flex;
     gap: 2rem;
   }
+}
+
+.section-heading {
+  width: min(90%, 65rem);
+  margin: 0 auto;
 }

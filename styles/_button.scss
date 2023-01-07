@@ -2,12 +2,23 @@
   align-self: start;
   justify-self: start;
   display: inline-block;
+  font-family: $font-primary;
+  color: $color-white;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 2.5rem;
 
   &--green {
     background-color: $color-primary-1;
+    box-shadow: 0 0.25rem 0.1rem hsl(171, 68%, 32%);
   }
 
   &--blue {
     background-color: $color-primary-2;
+    box-shadow: 0 0.25rem 0.1rem hsl(233, 46%, 48%);
+  }
+
+  &:hover {
+    opacity: 0.7;
   }
 }
