@@ -1,0 +1,13 @@
+.btn {
+  align-self: start;
+  justify-self: start;
+  display: inline-block;
+
+  &--green {
+    background-color: $color-primary-1;
+  }
+
+  &--blue {
+    background-color: $color-primary-2;
+  }
+}

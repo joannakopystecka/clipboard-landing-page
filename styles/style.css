@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(201deg, 11%, 66%);
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.heading-1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+
+.heading-1 {
+  font-size: 4.5rem;
+  color: hsl(210deg, 10%, 33%);
+}
+
+.btn {
+  align-self: start;
+  justify-self: start;
+  display: inline-block;
+}
+.btn--green {
+  background-color: hsl(171deg, 66%, 44%);
+}
+.btn--blue {
+  background-color: hsl(233deg, 100%, 69%);
+}
+
+.header {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 15vh;
+}
+.header__buttons {
+  display: flex;
+  gap: 2rem;
+}/*# sourceMappingURL=style.css.map */

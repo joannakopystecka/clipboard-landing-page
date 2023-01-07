@@ -1,0 +1,33 @@
+// colors
+
+$color-primary-1: hsl(171, 66%, 44%);
+$color-primary-2: hsl(233, 100%, 69%);
+
+$color-neutral-dark: hsl(210, 10%, 33%);
+$color-neutral-light: hsl(201, 11%, 66%);
+
+//fonts variables
+
+$font-primary: "Bai Jamjuree", sans-serif;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-neutral-light;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1.8rem;
+}
