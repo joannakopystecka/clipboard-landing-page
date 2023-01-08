@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: 50vw;
+  grid-column: 4 / span 6;
   justify-items: center;
   justify-content: center;
   text-align: center;
@@ -10,11 +10,6 @@
   &__paragraph {
     font-size: 2rem;
     text-align: center;
-  }
-
-  &__buttons {
-    display: flex;
-    gap: 2rem;
   }
 }
 
