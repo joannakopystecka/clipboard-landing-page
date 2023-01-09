@@ -21,4 +21,9 @@
     font-size: 1.5rem;
     line-height: 1.8;
   }
+
+  @media only screen and (max-width: $bp-mobile) {
+    display: flex;
+    flex-direction: column;
+  }
 }

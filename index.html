@@ -20,15 +20,18 @@
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
+    
+    <div class="background">
     <img
       src="images/bg-header-desktop.png"
       alt="Background image"
-      class="backgroun__img"
+      class="background__img"
     />
-
-    <div class="container">
+  </div>
+  <div class="container">
+    
       <header class="header mb-hg">
-        <img src="images/logo.svg" alt="Logo" />
+        <img src="images/logo.svg" alt="Logo" class="header__logo"/>
         <h1 class="heading-1">A history of everything you copy</h1>
         <p class="header__paragraph">
           Clipboard allows you to track and organize everything you copy.
@@ -129,6 +132,14 @@
         </div>
       </section>
 
+      <section class="brands">
+        <img src="images/logo-google.png" alt="Google logo">
+        <img src="images/logo-ibm.png" alt="IBM logo">
+        <img src="images/logo-microsoft.png" alt="Microsoft logo">
+        <img src="images/logo-hp.png" alt="HP logo">
+        <img src="images/logo-vector-graphics.png" alt="Vector Graphics logo">
+      </section>
+
       <section class="story">
         <h2 class="heading-2">Clipboard for iOS and Mac OS</h2>
         <p class="story__paragraph">
@@ -144,28 +155,24 @@
       
 
       <footer class="footer">
+        <div class="footer__logo">
+          <img src="images/logo.svg" alt="Logo">
+        </div>
+        
+        
         <ul class="nav">
           <li class="nav__item"><a href="" class="nav__link">FAQs</a></li>
-        </ul>
-        <ul class="nav">
           <li class="nav__item"><a href="" class="nav__link">Contact Us</a></li>
-        </ul>
-        <ul class="nav">
           <li class="nav__item"><a href="" class="nav__link">Privacy Policy</a></li>
-        </ul>
-        <ul class="nav">
           <li class="nav__item"><a href="" class="nav__link">Press Kit</a></li>
-        </ul>
-        <ul class="nav">
           <li class="nav__item"><a href="" class="nav__link">Install Guide</a></li>
         </ul>
 
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Your Name Here</a>.
-        </p>
+        <ul class="social-media">
+          <li class="social-media__item"><a href="" class="social-media__link"><img src="images/icon-facebook.svg" alt=""></a></li>
+          <li class="social-media__item"><a href="" class="social-media__link"><img src="images/icon-twitter.svg" alt=""></a></li>
+          <li class="social-media__item"><a href="" class="social-media__link"><img src="images/icon-instagram.svg" alt=""></a></li>
+        </ul>
       </footer>
     </div>
   </body>

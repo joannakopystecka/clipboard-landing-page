@@ -11,9 +11,16 @@
     font-size: 2rem;
     text-align: center;
   }
-}
 
-.section-heading {
-  width: min(90%, 65rem);
-  margin: 0 auto;
+  &__logo {
+    @media only screen and (max-width: $bp-mobile) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
+    grid-column: 2 / span 10;
+    gap: 1.5rem;
+    padding-top: 10vh;
+  }
 }

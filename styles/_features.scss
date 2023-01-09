@@ -9,6 +9,11 @@
   &__img {
     width: 100%;
     transform: translateX(-4rem);
+
+    @media only screen and (max-width: $bp-mobile) {
+      width: 80vw;
+      transform: translateX(0);
+    }
   }
 
   &__texts {
@@ -16,9 +21,20 @@
     grid-template-columns: 70%;
     gap: 3.5rem;
     padding: 0 5rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+      justify-content: center;
+      text-align: center;
+    }
   }
 
   &__heading {
     margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
+    margin: 12rem 0;
+    display: flex;
+    flex-direction: column;
   }
 }

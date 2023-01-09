@@ -6,4 +6,9 @@
   text-align: center;
   gap: 2rem;
   margin: 6rem 0;
+
+  @media only screen and (max-width: $bp-mobile) {
+    grid-column: 2 / span 10;
+    margin: 6rem 0 0;
+  }
 }

@@ -1,0 +1,15 @@
+.brands {
+  grid-column: 2 / span 10;
+  margin: 10rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-mobile) {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+}
